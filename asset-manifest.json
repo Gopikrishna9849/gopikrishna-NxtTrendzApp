@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gopikrishna-NxtTrendzApp/static/css/main.6ddd968b.css",
-    "main.js": "/gopikrishna-NxtTrendzApp/static/js/main.3fd9f942.js",
+    "main.js": "/gopikrishna-NxtTrendzApp/static/js/main.a78f7d1a.js",
     "static/js/787.f3123357.chunk.js": "/gopikrishna-NxtTrendzApp/static/js/787.f3123357.chunk.js",
     "index.html": "/gopikrishna-NxtTrendzApp/index.html",
     "main.6ddd968b.css.map": "/gopikrishna-NxtTrendzApp/static/css/main.6ddd968b.css.map",
-    "main.3fd9f942.js.map": "/gopikrishna-NxtTrendzApp/static/js/main.3fd9f942.js.map",
+    "main.a78f7d1a.js.map": "/gopikrishna-NxtTrendzApp/static/js/main.a78f7d1a.js.map",
     "787.f3123357.chunk.js.map": "/gopikrishna-NxtTrendzApp/static/js/787.f3123357.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ddd968b.css",
-    "static/js/main.3fd9f942.js"
+    "static/js/main.a78f7d1a.js"
   ]
 }
