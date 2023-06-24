@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate, HashRouter } from "react-router-dom";
 import Home from "./components/Home/index";
 import Products from "./components/Products/index";
 import LoginForm from "./components/LoginForm/index";
@@ -93,7 +93,7 @@ class App extends Component {
           removeAllCartItems: this.removeAllCartItems,
         }}
       >
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route exact path="/login" element={<LoginForm />} />
             <Route element={<ProtectedRoute />}>
@@ -115,7 +115,7 @@ class App extends Component {
             <Route path="/notfound" element={<NotFound />} />
             <Route path="*" element={<Navigate to="/notfound" />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </CartContext.Provider>
     );
   }
