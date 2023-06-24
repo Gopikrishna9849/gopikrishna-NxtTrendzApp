@@ -42,7 +42,7 @@ class LoginForm extends Component {
     const { username } = this.state;
     return (
       <>
-        <label htmlFor="username" className="input-label">
+        <label className="input-label" htmlFor="username">
           USERNAME
         </label>
         <input
@@ -51,6 +51,7 @@ class LoginForm extends Component {
           className="username-input-field"
           value={username}
           onChange={this.onChangeUsername}
+          placeholder="Username"
         />
       </>
     );
@@ -59,17 +60,18 @@ class LoginForm extends Component {
     const { password } = this.state;
     return (
       <>
-        <label className="input-label" htmlFor="password">
-          PASSWORD
-        </label>
-        <input
-          className="password-input-filed"
-          id="password"
-          type="password"
-          onChange={this.onChangePassword}
-          value={password}
-        />
-      </>
+      <label className="input-label" htmlFor="password">
+        PASSWORD
+      </label>
+      <input
+        type="password"
+        id="password"
+        className="password-input-field"
+        value={password}
+        onChange={this.onChangePassword}
+        placeholder="Password"
+      />
+    </>
     );
   };
 
@@ -84,19 +86,19 @@ class LoginForm extends Component {
       <div className="login-form-container">
         <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+          className="login-website-logo-mobile-img"
           alt="website logo"
-          className="login-website-logo-mobile-image"
         />
         <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
+          className="login-img"
           alt="website login"
-          className="login-image"
         />
         <form className="form-container" onSubmit={this.submitForm}>
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+            className="login-website-logo-desktop-img"
             alt="website logo"
-            className="login-website-logo-desktop-image"
           />
           <div className="input-container">{this.renderUsernameField()}</div>
           <div className="input-container">{this.renderPasswordField()}</div>
