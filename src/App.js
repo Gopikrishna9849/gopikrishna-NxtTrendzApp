@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes, Navigate, HashRouter } from "react-router-dom";
+import {Route, Routes, Navigate, HashRouter } from "react-router-dom";
 import Home from "./components/Home/index";
 import Products from "./components/Products/index";
 import LoginForm from "./components/LoginForm/index";
